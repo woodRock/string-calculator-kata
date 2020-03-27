@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StringCalculatorTest" time="0.031" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/woodj/Documents/string-calculator-kata/target/test-classes:/home/woodj/Documents/string-calculator-kata/target/classes:/home/woodj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/woodj/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/woodj/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/woodj/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/woodj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/woodj/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NZ"/>
+    <property name="sun.boot.library.path" value="/home/woodj/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/193.6911.18/jbr/lib"/>
+    <property name="sun.java.command" value="/home/woodj/Documents/string-calculator-kata/target/surefire/surefirebooter17152204776438946279.jar /home/woodj/Documents/string-calculator-kata/target/surefire 2020-03-27T17-07-04_495-jvmRun1 surefire673991949115467444tmp surefire_05436726752031423002tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/woodj/Documents/string-calculator-kata/target/test-classes:/home/woodj/Documents/string-calculator-kata/target/classes:/home/woodj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/woodj/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/woodj/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/woodj/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/woodj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/woodj/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/woodj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/home/woodj/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/193.6911.18/jbr"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/woodj/Documents/string-calculator-kata"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/woodj/Documents/string-calculator-kata/target/surefire/surefirebooter17152204776438946279.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-b520.43"/>
+    <property name="user.name" value="woodj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.19.0-6-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="skipTests" value="true"/>
+    <property name="localRepository" value="/home/woodj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="/home/woodj/Documents/string-calculator-kata"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="idea.version2019.3.4" value="true"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-b520.43"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="negativeNumbers" classname="StringCalculatorTest" time="0.007"/>
+  <testcase name="callCountIncreases" classname="StringCalculatorTest" time="0.002"/>
+  <testcase name="nNumbers" classname="StringCalculatorTest" time="0"/>
+  <testcase name="twoNumbers" classname="StringCalculatorTest" time="0"/>
+  <testcase name="delimitersCanBeOfAnyLength" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="getCallCount" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="multipleDelimitersOfNLength" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="multipleNegativeNumbers" classname="StringCalculatorTest" time="0"/>
+  <testcase name="addWithNewDelimiter" classname="StringCalculatorTest" time="0"/>
+  <testcase name="multipleDelimiters" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="emptyString" classname="StringCalculatorTest" time="0"/>
+  <testcase name="largeNumbersIgnored" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="singleNumber" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="newLine" classname="StringCalculatorTest" time="0.001"/>
+  <testcase name="callCountWithException" classname="StringCalculatorTest" time="0.001"/>
+</testsuite>
