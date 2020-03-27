@@ -1,5 +1,5 @@
 # string-calculator-kata
-[![build status](https://github.com/woodRock/string-calculator-kata/workflows/Build/badge.svg)](https://github.com/coryrylan/angular-github-actions/actions)
+[![build status](https://github.com/woodRock/string-calculator-kata/workflows/Build/badge.svg)](https://github.com/coryrylan/javascript-github-actions/actions)
 
 Test driven development (TDD) kata for a String Calculator implemented in Java
 
